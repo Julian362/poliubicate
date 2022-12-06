@@ -5,10 +5,14 @@
 
 .nav-link.nav-all {
     color:#ffff!important;
+    font-size: x-large;
+
 }
 
 .active{
     color:#ffc107!important;
+    font-size: x-large;
+
 }
 
 .wrapper {

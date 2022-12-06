@@ -1120,7 +1120,7 @@ map.on('load', () => {
         'type': 'fill',
         'source': 'bloques',
         'paint': {
-            'fill-color': '#950e0e',
+            'fill-color': '#016c21',
             'fill-opacity': 0.2,
             'fill-outline-color': '#000000'
         }
