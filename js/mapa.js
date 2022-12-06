@@ -1150,13 +1150,33 @@ map.on('load', () => {
 
     map.addControl(
         new mapboxgl.GeolocateControl({
-        positionOptions: {
-        enableHighAccuracy: true
-        },
-        // When active the map will receive updates to the device's location as it changes.
-        trackUserLocation: true,
-        // Draw an arrow next to the location dot to indicate which direction the device is heading.
-        showUserHeading: true
+            positionOptions: {
+                enableHighAccuracy: true
+            },
+            // When active the map will receive updates to the device's location as it changes.
+            trackUserLocation: true,
+            // Draw an arrow next to the location dot to indicate which direction the device is heading.
+            showUserHeading: true
         })
-        );
+    );
 });
+
+const playSound = function () {
+    const rutas = ["../media/mp3/1.mp3",
+        "../media/mp3/2.mp3",
+        "../media/mp3/3.mp3",
+        "../media/mp3/4.mp3",
+        "../media/mp3/5.mp3",
+        "../media/mp3/6.mp3",
+        "../media/mp3/7.mp3",
+        "../media/mp3/8.mp3",
+        "../media/mp3/9.mp3",
+        "../media/mp3/10.mp3",
+        "../media/mp3/11.mp3"];
+    const random = Math.floor(Math.random() * rutas.length);
+    var sonido = new Audio(rutas[random]);
+    sonido.play();
+    document.removeEventListener('click', playSound);
+}
+document.addEventListener('click', playSound);
+
