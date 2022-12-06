@@ -1,29 +1,42 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.gif{
-    background-image: url("../Img/Poli.gif") ;
+body {
+    /* min-height: 75rem; */
+    padding-top: 4.5rem;
+}
+
+.nav-link.nav-all {
+    color:#ffff!important;
+}
+
+.active{
+    color:#ffc107!important;
+}
+
+.gif {
+    background-image: url("../Img/gif-background.gif");
     background-size: cover;
     background-repeat: no-repeat;
-       
+    background-position: center center;
     justify-content: center;
     align-self: center;
-    min-height: 100vh;
+    min-height: calc(100vh-4.5rem);
 }
-.container
-{
+
+body .container:not(#footer) {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-  flex-wrap: wrap; 
+    flex-wrap: nowrap;
     padding: 60px 0;
     min-height: 50vh;
 }
-.container .box{
+
+.container .box {
     position: relative;
     width: 300px;
     height: 350px;
@@ -32,11 +45,9 @@ box-sizing: border-box;
     align-items: center;
     border-color: black;
     border-width: 1cm;
-    padding: 5cm;
-    
-    
 }
-.container .box .content{
+
+.container .box .content {
     position: relative;
     display: flex;
     justify-content: center;
@@ -47,32 +58,32 @@ box-sizing: border-box;
     padding: 0 20px;
     width: 100%;
     height: 100%;
-    
+
 }
-#primero{
+
+#primero {
     background-image: url("../Img/canchas.png");
-    background-size:contain;
+    background-size: 20rem;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 15em;   
 }
-#segundo{
+
+#segundo {
     background-image: url("../Img/port.jpg");
-    background-size:contain;
+    background-size: 20rem;
     background-repeat: no-repeat;
     background-position: center;
-    left: 1cm;
-    border-radius: 15em;  
-}#tercero{
-    background-image: url("../Img/p40.jpg");
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    left: 2cm;
-    border-radius: 15em;
-    border-color: aqua;  
 }
-.boton{
+
+#tercero {
+    background-image: url("../Img/p40.jpg");
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: aqua;
+}
+
+.boton {
     position: relative;
     width: 200px;
     height: 60px;
@@ -87,19 +98,102 @@ box-sizing: border-box;
     text-transform: uppercase;
     font-weight: 500;
 }
-.boton::before
-{
+
+.boton::before {
     content: '';
     position: absolute;
     top: 0;
     left: 100%;
     height: 100%;
-    background:#359ad8;
+    background: #359ad8;
     transform: scaleX(0);
     transition: 0.5s ease-in-out;
     transform-origin: right;
 }
-.boton:hover::before{
+
+.boton:hover::before {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+#footer {
+    background-color: #343a40;
+}
+
+.text-icon {
+    color: white !important;
+}
+
+.text-icon:hover {
+    color: #ffc107 !important;
+}
+
+
+
+.ring{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:150px;
+    height:150px;
+    background:transparent;
+    border:3px solid #3c3c3c;
+    border-radius:50%;
+    text-align:center;
+    line-height:150px;
+
+    color:#fff000;
+    letter-spacing:2px;
+    text-shadow:0 0 10px #fff000;
+    box-shadow:0 0 20px rgba(0,0,0,.5);
+    font-size: 19px;
+}
+
+.ring:before{
+    content: ' ';
+    position:absolute;
+    top:-5px;
+    right: -4px;
+    width:100%;
+    height:100%;
+    border:3px solid transparent; 
+    border-right:3px solid #fff000;
+    border-top:3px solid #fff000;
+    border-radius:50%;  
+    animation:animatec 2s linear infinite;  
+}
+
+@keyframes animatec{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
