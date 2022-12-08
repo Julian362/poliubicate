@@ -21,7 +21,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 1</strong><p>descripción 1</p>',
+                            '<strong>Zona de Estudio los Almendros</strong><p>descripción 1</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -57,7 +57,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 2</strong><p>descripción 2</p>',
+                            '<strong>Parqueadero de Autos</strong><p>Espacio limitado donde los miembros del Poli podrán parquear sus vehículos de forma segura</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -93,7 +93,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 3</strong><p>descripción 3</p>',
+                            '<strong>Cancha de Fútbol</strong><p>Espacio para la sana convivencia y recreación. Aquí podrás disfrutar de una increible cancha de futbol, en donde practicaras ese y muchos más deportes</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -129,7 +129,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 4</strong><p>descripción 4</p>',
+                            '<strong>Controles Automáticos</strong><p>descripción 4</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -165,7 +165,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 7</strong><p>descripción 7</p>',
+                            '<strong>Investigación y Posgrados</strong><p>descripción 7</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -201,7 +201,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 8</strong><p>descripción 8</p>',
+                            '<strong>Cancha de Softbol</strong><p>descripción 8</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -237,7 +237,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 9</strong><p>descripción 9</p>',
+                            '<strong>Servicios Generales</strong><p>descripción 9</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -273,7 +273,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 10</strong><p>descripción 10</p>',
+                            '<strong>Bloque de Profesores</strong><p>descripción 10</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -333,7 +333,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 11</strong><p>descripción 11</p>',
+                            '<strong>Corredor Central</strong><p>El corredor central es el inicio del camino hacia tu bloque o zona de preferencia, va desde la entrada del metro hasta el bloque CTIE (bloque P40)</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -369,7 +369,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 12</strong><p>descripción 12</p>',
+                            '<strong>Archivo y Correspondencia</strong><p>Dependencia encargada de ejecutar procesos y porcedimientos que deben aplicarse a la gestión documental en sus diferentes etapas. Su función es establecer y adoptar políticas para la gestión y manejo de los documentos de la institución</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -405,7 +405,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 13</strong><p>descripción 13</p>',
+                            '<strong>Bloque CTIE</strong><p>descripción 13</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -453,7 +453,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 14</strong><p>descripción 14</p>',
+                            '<strong>Coliseo Cubierto</strong><p>Cuenta con un espacio donde se realizan diferentes actividades que requieran un espacio cubierto, también con la posibilidad de una cancha y unas gradas para su público</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -489,7 +489,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 15</strong><p>descripción 15</p>',
+                            '<strong>Facultad de Administración</strong><p>descripción 15</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -529,7 +529,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 16</strong><p>descripción 16</p>',
+                            '<strong>Piscina</strong><p>Zona húmeda donde puedes refrescarte en esos días calurosos y tener clases practicas de natación</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -565,7 +565,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 17</strong><p>descripción 17</p>',
+                            '<strong>Facultad de Ciencias Agrarias</strong><p>Se orienta hacia una vocación tecnológica, reconocida por su liderazgo en la formación científica y humanística de profesionales del sector agrario</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -601,7 +601,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 18</strong><p>descripción 18</p>',
+                            '<strong>Fomento Cultural</strong><p>Espacios para la formación artística y cultural a través de una gran cantidad de talleres ricos en su diversidad </p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -637,7 +637,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 19</strong><p>descripción 19</p>',
+                            '<strong>Cancha de Tenis</strong><p>El poli cuenta con cancha de tenis, la cual está a disposición de todos los miembros que hace parte de ésta para poder disfrutar de ese deporte que tanto te gusta.</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -673,7 +673,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 20</strong><p>descripción 20</p>',
+                            '<strong>Facultad de Ciencias Básicas</strong><p>descripción 20</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -741,7 +741,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 21</strong><p>descripción 21</p>',
+                            '<strong>Cancha de Voleibol</strong><p>El Poli cuenta con un espacio central donde se encunetra la cancha de voleibol, indicada para los amantes de este deporte</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -777,7 +777,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 22</strong><p>descripción 22</p>',
+                            '<strong>Cancha de Microfútbol</strong><p>descripción 22</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -813,7 +813,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 23</strong><p>descripción 23</p>',
+                            '<strong>Zona de Estudio las Palmeras</strong><p>descripción 23</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -857,7 +857,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 24</strong><p>descripción 24</p>',
+                            '<strong>Parqueadero de Autos</strong><p>Espacio limitado donde los estudiantes del Poli podrán parquear sus vehículos de forma segura</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -893,7 +893,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 25</strong><p>descripción 25</p>',
+                            '<strong>Facultad de Educación Física</strong><p>descripción 25</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -953,7 +953,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 26</strong><p>descripción 26</p>',
+                            '<strong>Falcultad de Comunicación</strong><p>descripción 26</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -989,7 +989,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 27</strong><p>descripción 27</p>',
+                            '<strong>Bloque Administrativo</strong><p>descripción 27</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -1025,7 +1025,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 28</strong><p>descripción 28</p>',
+                            '<strong>Gimnasio al Aire Libre</strong><p>Este gimnasio se encuentra ubicado muy cerca de otras zonas comunes. Cuenta con diferentes máquinas que te ayudaran a mantenerte saludable y ejercitar esos músculos.</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -1069,7 +1069,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Titulo 29</strong><p>descripción 29</p>',
+                            '<strong>Facultad de Ingenierías</strong><p>descripción 29</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
