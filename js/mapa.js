@@ -21,7 +21,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Zona de Estudio los Almendros</strong><p>descripción 1</p>',
+                            '<strong>Zona de Estudio los Almendros</strong><p>La zona "Los Almendros" es perfecta para estudiar, compartir e interactuar con compañeros que vas conociendo a lo largo de tu carrera</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -201,7 +201,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Cancha de Softbol</strong><p>descripción 8</p>',
+                            '<strong>Cancha de Softbol</strong><p>Espacio para el desarrollo de actividades físicas y recreativas</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -777,7 +777,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Cancha de Microfútbol</strong><p>descripción 22</p>',
+                            '<strong>Cancha de Microfútbol</strong><p>Para los amantes del micro, el Poli cuenta con una cancha de microfutbol, ubicada entre el bloque P42 (Facultad de Educación Fsísica) y el Coliseo Cubierto</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -813,7 +813,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Zona de Estudio las Palmeras</strong><p>descripción 23</p>',
+                            '<strong>Zona de Estudio las Palmeras</strong><p>"Las Palmeras" es una zona que invita a la buena convivencia entre los estudiantes de la institución, en donde podrás estudiar y hasta esperar tu próxima clase </p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -989,7 +989,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Bloque Administrativo</strong><p>descripción 27</p>',
+                            '<strong>Bloque Administrativo</strong><p>En este bloque en su primera planta podrás encontrar la Bibliioteca, donde podrás hacer uso de todos los servicios que tiene para ti. En su segundo piso se encuenran las oficinas del personal administrativo del Poli</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
