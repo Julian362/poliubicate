@@ -453,7 +453,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Coliseo Cubierto</strong><p>Cuenta con un espacio donde se realizan diferentes actividades que requieran un espacio cubierto, también con la posibilidad de una cancha y unas gradas para su público</p>',
+                            '<strong>Coliseo Cubierto</strong><p>El coliseo cuenta con un espacio donde se realizan diferentes actividades que requieran un espacio cubierto, también con la posibilidad de una cancha y unas gradas para su público</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
