@@ -489,7 +489,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Facultad de Administración</strong><p>descripción 15</p>',
+                            '<strong>Facultad de Administración</strong><p>Encargada de establecer un vínculo común para la formación integral de estudiantes pertenecientes a programas curriculares formadores en liderazgo empresarial</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -953,7 +953,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Falcultad de Comunicación</strong><p>descripción 26</p>',
+                            '<strong>Falcultad de Comunicación</strong><p>Se proyecta con el propósito académico de formar técnicos, tecnólogos, profesionales y de postgrado, en el campo de la comunicación audiovisual y producción de eventos</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
