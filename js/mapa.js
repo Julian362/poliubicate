@@ -893,7 +893,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Facultad de Educación Física</strong><p>descripción 25</p>',
+                            '<strong>Facultad de Educación Física</strong><p>En el año 1979 se realizó un convenio interinstitucional entre El Poli y COLDEPORTES para desarrollar programas de Educación Física, Recreación y Deportes, surgiendo de este convenio programas como Tecnología Deportiva y Tecnología en Educación Física</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
@@ -1069,7 +1069,7 @@ map.on('load', () => {
                     "type": "Feature",
                     'properties': {
                         'description':
-                            '<strong>Facultad de Ingenierías</strong><p>descripción 29</p>',
+                            '<strong>Facultad de Ingenierías</strong><p>Reconocida como una facultad innovadora y de alta calidad con cubrimiento en todos los niveles de formación pertinentes</p>',
                         'icon': 'theatre'
                     },
                     "geometry": {
